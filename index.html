@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="Stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a7682577dd.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Degraphe</title>
 </head>
 <body>
@@ -35,13 +36,13 @@
       <div class="hero-section">
           <div class="container-fluid hero-section-container mt-4">
               <div class="row">
-                  <div class="col-md-6 col-sm-6 col-lg-6">
+                  <div data-aos="fade-right" class="col-md-6 col-sm-6 col-lg-6">
                         <h1 class="hero-header-styles">DEGRAPHE</h1>
                         <p class="para-styles lead mt-4">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium consectetur unde. Atque autem minima aut rerum ut quo, at, nostrum numquam eos iure ipsa! Suscipit eaque qui accusamus culpa!
                         </p>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-lg-6">
+                  <div data-aos="fade-down" class="col-md-6 col-sm-6 col-lg-6">
                     <div class="hero-img-container">
                         <img src="/img/degraphe-hero-image.png" alt="..." class="img-fluid">
                     </div>
@@ -74,7 +75,7 @@
 
         <div class="container section-container mt-5">
             <div class="row">
-                <div class="col-sm-4">
+                <div data-aos="flip-left" class="col-sm-4">
                   <div class="about-card">
                     <div class="about-card__icon">
                       <i class="fas fa-laptop-code"></i>
@@ -87,7 +88,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-sm-4">
+                <div data-aos="flip-left" class="col-sm-4">
                   <div class="about-card">
                     <div class="about-card__icon">
                       <i class="fas fa-hands-helping"></i>
@@ -100,7 +101,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-sm-4">
+                <div data-aos="flip-left" class="col-sm-4">
                   <div class="about-card">
                     <div class="about-card__icon">
                       <i class="fas fa-mail-bulk"></i>
@@ -123,7 +124,7 @@
       <div class="container section-container mt-5">
         <div class="row">
 
-         <div class="col-xs-12 col-sm-4 col-md-4">
+         <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
           <div class="projects-card">
             <div class="project-img">
               <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -135,7 +136,7 @@
           </div>
          </div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4">
+         <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
           <div class="projects-card">
             <div class="project-img">
               <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -147,7 +148,7 @@
           </div>
          </div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4">
+         <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
           <div class="projects-card">
             <div class="project-img">
               <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -164,7 +165,7 @@
         <!-- second row  -->
         <div class="row mt-5">
 
-          <div class="col-xs-12 col-sm-4 col-md-4">
+          <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
            <div class="projects-card">
              <div class="project-img">
                <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -176,7 +177,7 @@
            </div>
           </div>
  
-          <div class="col-xs-12 col-sm-4 col-md-4">
+          <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
            <div class="projects-card">
              <div class="project-img">
                <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -188,7 +189,7 @@
            </div>
           </div>
  
-          <div class="col-xs-12 col-sm-4 col-md-4">
+          <div data-aos="fade-down" class="col-xs-12 col-sm-4 col-md-4">
            <div class="projects-card">
              <div class="project-img">
                <img src="/img/project-img.jpg" alt="" class="img-fluid">
@@ -214,7 +215,7 @@
       
       <div class="container">
         <div class="row mt-5">
-          <div class="col-sm-5 col-md-5">
+          <div data-aos="fade-right" class="col-sm-5 col-md-5">
             <h2 class="lead contact-find-title">Find Us On</h2>
             <div class="social-contact-container">
                 <div class="social-link-item">
@@ -231,7 +232,7 @@
             <h2 class="lead contact-find-title">Email</h2>
             <p class="lead email-contact-text">info@degraphe.com</p>
           </div>
-          <div class="col-sm-7 col-md-7">
+          <div data-aos="fade-left" class="col-sm-7 col-md-7">
             <h2 class="lead contact-find-title">Send A Message</h2>
             <div class="form-container mt-4">
               <form>
@@ -270,11 +271,15 @@
       </p>
     </footer>
 
-    <script>
-       const dateTag = document.querySelector('.footer-date')
-       dateTag.innerHTML = new Date().getFullYear()
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const dateTag = document.querySelector('.footer-date')
+      dateTag.innerHTML = new Date().getFullYear()
+   </script>
 </body>
 </html>
