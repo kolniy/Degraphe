@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="Stylesheet" href="style.css">
-
+    <script src="https://kit.fontawesome.com/a7682577dd.js" crossorigin="anonymous"></script>
     <title>Degraphe</title>
 </head>
 <body>
@@ -33,7 +33,7 @@
         </div>
       </nav>
       <div class="hero-section">
-          <div class="container">
+          <div class="container-fluid hero-section-container mt-4">
               <div class="row">
                   <div class="col-md-6 col-sm-6 col-lg-6">
                         <h1 class="hero-header-styles">DEGRAPHE</h1>
@@ -57,7 +57,7 @@
     </header>
     <section class="about-section">
         <h1 class="text-center about-header">About Us</h1>
-        <p class="text-center about-text">
+        <p class="text-center about-text lead">
             Lorem ipsum dolor sit amet consectetur adipisicing
              elit. Iste quis velit tenetur soluta inventore 
              suscipit animi accusantium et accusamus doloribus, 
@@ -67,18 +67,176 @@
              suscipit animi accusantium et accusamus doloribus, 
              ipsam sed magnam quo error quod voluptatibus debitis ut harum.
         </p>
-        <div class="container section-container">
+
+       <div class="container">
+        <hr class="hr-style"/>
+       </div>
+
+        <div class="container section-container mt-5">
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <div class="about-card">
+                    <div class="about-card__icon">
+                      <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h2 class="about-card__title">
+                      Software Development
+                    </h2>
+                    <p class="about-card__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dignissimos in debitis repellat sunt, similique doloribus reprehenderit cupiditate cumque illum facilis ad totam sequi corrupti tenetur voluptatum odio. Facere, tempora?
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="about-card">
+                    <div class="about-card__icon">
+                      <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h2 class="about-card__title">
+                      Consultation
+                    </h2>
+                    <p class="about-card__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dignissimos in debitis repellat sunt, similique doloribus reprehenderit cupiditate cumque illum facilis ad totam sequi corrupti tenetur voluptatum odio. Facere, tempora?
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="about-card">
+                    <div class="about-card__icon">
+                      <i class="fas fa-mail-bulk"></i>
+                    </div>
+                    <h2 class="about-card__title">
+                      Sales And Marketing
+                    </h2>
+                    <p class="about-card__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dignissimos in debitis repellat sunt, similique doloribus reprehenderit cupiditate cumque illum facilis ad totam sequi corrupti tenetur voluptatum odio. Facere, tempora?
+                    </p>
+                  </div>
+                </div>
             </div>
         </div>
+    </section>
+
+    <section class="projects">
+      <h1 class="text-center projects-header">Projects</h1>
+
+      <div class="container section-container mt-5">
+        <div class="row">
+
+         <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="/img/project-img.jpg" alt="" class="img-fluid">
+            </div>
+            <h2 class="project-title">Divine Mingle</h2>
+            <div class="project-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+            </div>
+          </div>
+         </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="/img/project-img.jpg" alt="" class="img-fluid">
+            </div>
+            <h2 class="project-title">Tuturly</h2>
+            <div class="project-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+            </div>
+          </div>
+         </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="projects-card">
+            <div class="project-img">
+              <img src="/img/project-img.jpg" alt="" class="img-fluid">
+            </div>
+            <h2 class="project-title">OpenVR</h2>
+            <div class="project-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+            </div>
+          </div>
+         </div>
+
+        </div>
+
+        <!-- second row  -->
+        <div class="row mt-5">
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+           <div class="projects-card">
+             <div class="project-img">
+               <img src="/img/project-img.jpg" alt="" class="img-fluid">
+             </div>
+             <h2 class="project-title">Divine Mingle</h2>
+             <div class="project-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+             </div>
+           </div>
+          </div>
+ 
+          <div class="col-xs-12 col-sm-4 col-md-4">
+           <div class="projects-card">
+             <div class="project-img">
+               <img src="/img/project-img.jpg" alt="" class="img-fluid">
+             </div>
+             <h2 class="project-title">Tuturly</h2>
+             <div class="project-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+             </div>
+           </div>
+          </div>
+ 
+          <div class="col-xs-12 col-sm-4 col-md-4">
+           <div class="projects-card">
+             <div class="project-img">
+               <img src="/img/project-img.jpg" alt="" class="img-fluid">
+             </div>
+             <h2 class="project-title">OpenVR</h2>
+             <div class="project-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi saepe voluptatem molestiae id laudantium non culpa inventore, quis expedita, nesciunt sint recusandae officiis necessitatibus molestias, odio corporis error. Suscipit.
+             </div>
+           </div>
+          </div>
+ 
+         </div>
+
+      </div>
+    </section>
+
+    <section class="contact">
+      <h1 class="text-center contact-header">Contact Us</h1>
+      <p class="text-center lead contact-text">
+        Do have a question? Have a project? or need Consultation? or maybe you just Want to say hi!
+        You can Reach out to us in Any of the following ways, And a member of our team will be in touch.
+      </p>
+      
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-sm-7 col-md-7">
+            <h2 class="lead contact-find-title">Find Us On</h2>
+            <div class="social-contact-container">
+                <div class="social-link-item">
+                  <a href="#" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="social-link-item">
+                  <a href="#" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+            </div>
+            <h2 class="lead contact-find-title">Email</h2>
+            <p class="lead email-contact-text">info@degraphe.com</p>
+          </div>
+          <div class="col-sm-5 col-md-5">
+            <h2 class="lead contact-find-title">Send A Message</h2>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
