@@ -17,12 +17,25 @@
   width: 90%;
 }
 
+.navbar-toggle-button,
+.navbar-toggle-button:hover,
+.navbar-toggle-button:active {
+  border: none;
+  border-color: transparent;
+  outline: 0;
+}
+
+.navbar-toggle-button i {
+  color: var(--site-text-color);
+}
+
 .hero-section {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   padding: 45px 10px;
   background-color: var(--site-theme-color);
   z-index: 1000;
+  position: relative;
 }
 
 .hero-header-styles {
@@ -50,6 +63,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  z-index: -1;
 }
 
 .custom-shape-divider-bottom-1638805866 svg {
@@ -68,6 +82,7 @@
   height: fit-content;
   width: 100%;
   padding: 60px 10px;
+  margin-top: -15px;
 }
 
 .about-section .about-header {
@@ -241,4 +256,11 @@
 .footer-hr-class {
   background: var(--site-alt-text-color);
   height: 0.000034rem;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-header-styles {
+    color: var(--site-text-color);
+    font-size: 1.3rem;
+  }
 }
